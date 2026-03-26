@@ -1,0 +1,20 @@
+h4{
+    color: red;
+    background-color: lightblue;
+}
+
+
+#nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(90deg, greenyellow,white);
+    padding: 10px 50px;
+}
+
+#nav > a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+}
