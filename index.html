@@ -141,20 +141,17 @@
                 <span class="g-caption">View Photo</span>
             </div>
         </div>
-
+        <div class="g-item" onclick="openLightbox(2)">
+            <img src="assests/abc.jfif" alt="Moment Three">
+            <div class="g-overlay">
+                <div class="g-zoom"><i class='bx bx-zoom-in'></i></div>
+                <span class="g-caption">View Photo</span>
+            </div>
+        </div>
     </div>
 
 
-    <div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
-        <button class="lb-close" onclick="closeLightbox()"><i class='bx bx-x'></i></button>
-        <div class="lb-content">
-            <img id="lb-img" src="" alt="">
-            <p id="lb-caption"></p>
-            <div class="lb-nav">
-                <button class="lb-btn" onclick="changePhoto(-1)"><i class='bx bx-chevron-left'></i></button>
-                <div class="lb-dots" id="lb-dots"></div>
-                <button class="lb-btn" onclick="changePhoto(1)"><i class='bx bx-chevron-right'></i></button>
-            </div>
+
             <span class="lb-counter" id="lb-counter"></span>
         </div>
     </div>
