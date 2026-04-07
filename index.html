@@ -17,9 +17,11 @@
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#assignments">Assignments</a>
         <a href="#gallery">Gallery</a>
         <a href="#skill">Skill</a>
         <a href="#contact">Contact</a>
+
     </nav>
 </header>
 
@@ -88,7 +90,7 @@
 <section class="projects" id="projects">
     <h2 class="heading">My <span>Projects</span></h2>
 
-    <div class="projects-container">
+
         <div class="project-box">
             <img src="assests/let.JPG" alt="Project 1">
             <div class="project-layer">
@@ -122,30 +124,54 @@
     </div>
 </section>
 
-<section class="gallery" id="Gallery">
+<!
+<section class="gallery" id="gallery">
+    <div style="text-align:center; margin-bottom: 1rem;">
+        <span class="section-label">Moments</span>
+    </div>
     <h2 class="heading">My <span>Gallery</span></h2>
-    <div class="gallery_container">
-        <div class="gallery_grid">
-            <div class="gallery-item">
-                <img src="assests/abc.jfif" >
-            </div>
+    <p class="gallery-sub">A glimpse into my world — click any photo to explore</p>
 
-            <div class="gallery-item">
-                <img src="assests/acd.jpeg" >
+    <div class="gallery-grid">
+        <div class="g-item featured" onclick="openLightbox(0)">
+            <img src="assests/funny.jpeg" alt="Moment One">
+            <div class="g-overlay">
+                <div class="g-zoom"><i class='bx bx-zoom-in'></i></div>
+                <span class="g-caption">View Photo</span>
             </div>
-
-            <div class="gallery-item">
-                <img src="assests/funny.jpeg" >
+            <span class="g-badge">Featured</span>
+        </div>
+        <div class="g-item" onclick="openLightbox(1)">
+            <img src="assests/happy.jpeg" alt="Moment Two">
+            <div class="g-overlay">
+                <div class="g-zoom"><i class='bx bx-zoom-in'></i></div>
+                <span class="g-caption">View Photo</span>
             </div>
-
-            <div class="gallery-item">
-                <img src="assests/happy.jpeg">
+        </div>
+        <div class="g-item" onclick="openLightbox(2)">
+            <img src="assests/abc.jfif" alt="Moment Three">
+            <div class="g-overlay">
+                <div class="g-zoom"><i class='bx bx-zoom-in'></i></div>
+                <span class="g-caption">View Photo</span>
             </div>
+        </div>
+    </div>
 
+
+    <div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
+        <button class="lb-close" onclick="closeLightbox()"><i class='bx bx-x'></i></button>
+        <div class="lb-content">
+            <img id="lb-img" src="" alt="">
+            <p id="lb-caption"></p>
+            <div class="lb-nav">
+                <button class="lb-btn" onclick="changePhoto(-1)"><i class='bx bx-chevron-left'></i></button>
+                <div class="lb-dots" id="lb-dots"></div>
+                <button class="lb-btn" onclick="changePhoto(1)"><i class='bx bx-chevron-right'></i></button>
+            </div>
+            <span class="lb-counter" id="lb-counter"></span>
         </div>
     </div>
 </section>
-
 <section class="skills" id="skills">
     <h2 class="heading">My <span>Skills</span></h2>
 
