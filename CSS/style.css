@@ -110,4 +110,12 @@ section {
         color: var(--main-color);
     }
 
-}
+    .home-content .description {
+        font-size: 1.6rem;
+        color: var(--text-muted);
+        margin: 2rem 0;
+        max-width: 480px;
+        line-height: 1.8;
+    }
+
+  }
