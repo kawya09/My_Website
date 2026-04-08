@@ -162,4 +162,10 @@ section {
         box-shadow: 0 0 1rem rgba(0, 255, 213, 0.4);
     }
 
-  }
+    .social-icons {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 3rem;
+    }
+
+   }
