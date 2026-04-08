@@ -236,4 +236,16 @@ section {
         z-index: 0;
     }
 
+    .dot-grid {
+        position: absolute;
+        bottom: -20px;
+        right: -20px;
+        width: 90px;
+        height: 90px;
+        background-image: radial-gradient(var(--main-color) 1.5px, transparent 1.5px);
+        background-size: 12px 12px;
+        opacity: 0.35;
+        z-index: 0;
+    }
+
    }
