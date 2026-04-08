@@ -92,4 +92,11 @@ section {
         gap: 8rem;
     }
 
+    .tagline {
+        font-size: 2rem;
+        color: var(--main-color);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
    }
