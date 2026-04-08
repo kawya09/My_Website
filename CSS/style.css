@@ -118,4 +118,11 @@ section {
         line-height: 1.8;
     }
 
+    .home-img img {
+        width: 28vw;
+        border-radius: 2rem;
+        border: 2px solid var(--main-color);
+        box-shadow: 0 0 30px rgba(0, 255, 213, 0.2);
+    }
+
   }
