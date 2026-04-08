@@ -51,4 +51,10 @@ section {
     width: 100%;
     padding: 2rem 9%;
     background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid rgba(0, 255, 213, 0.08);
 }
