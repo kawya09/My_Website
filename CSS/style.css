@@ -225,4 +225,15 @@ section {
         display: block;
     }
 
-  }
+    .img-border {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid var(--main-color);
+        border-radius: 2rem;
+        z-index: 0;
+    }
+
+   }
