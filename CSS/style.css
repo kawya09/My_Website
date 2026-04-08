@@ -144,4 +144,16 @@ section {
         transition: all 0.3s ease;
     }
 
+    .btn:hover {
+        box-shadow: none;
+        transform: scale(1.05);
+    }
+
+    .btn.btn-outline {
+        background: transparent;
+        color: var(--main-color);
+        border: 2px solid var(--main-color);
+        box-shadow: none;
+    }
+
    }
