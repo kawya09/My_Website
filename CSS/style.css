@@ -65,3 +65,11 @@ section {
         color: var(--main-color);
     }
 
+    .navbar a {
+        font-size: 1.6rem;
+        color: var(--text-color);
+        margin-left: 4rem;
+        transition: color 0.3s;
+        font-weight: 500;
+    }
+
