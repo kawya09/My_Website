@@ -156,4 +156,10 @@ section {
         box-shadow: none;
     }
 
-   }
+    .btn.btn-outline:hover {
+        background: var(--main-color);
+        color: var(--second-bg-color);
+        box-shadow: 0 0 1rem rgba(0, 255, 213, 0.4);
+    }
+
+  }
