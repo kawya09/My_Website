@@ -9,3 +9,12 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+
+:root {
+    --bg-color: #0d0d0d;
+    --second-bg-color: #161616;
+    --text-color: #fff;
+    --main-color: #00ffd5;
+    --text-muted: #aaaaaa;
+    --text-dim: #666666;
+}
