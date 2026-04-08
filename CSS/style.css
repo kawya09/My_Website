@@ -18,3 +18,8 @@
     --text-muted: #aaaaaa;
     --text-dim: #666666;
 }
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
