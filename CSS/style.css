@@ -106,4 +106,8 @@ section {
         margin-top: 1rem;
     }
 
-   }
+    .home-content h1 span {
+        color: var(--main-color);
+    }
+
+}
