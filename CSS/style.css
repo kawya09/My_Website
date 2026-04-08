@@ -189,4 +189,11 @@ section {
         transform: translateY(-5px);
     }
 
+    .about {
+        background: var(--second-bg-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+   }
