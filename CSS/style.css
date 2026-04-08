@@ -132,4 +132,15 @@ section {
         flex-wrap: wrap;
     }
 
-  }
+    .btn {
+        display: inline-block;
+        padding: 1.2rem 2.8rem;
+        background: var(--main-color);
+        color: var(--second-bg-color);
+        border-radius: 4rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+        box-shadow: 0 0 1rem rgba(0, 255, 213, 0.4);
+        transition: all 0.3s ease;
+    }
+}
