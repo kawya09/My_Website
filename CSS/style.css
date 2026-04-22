@@ -959,23 +959,3 @@ section {
     min-height: 160px;
 }
 
-.contact-btn {
-    width: fit-content;
-    padding: 1.2rem 4rem;
-    background: var(--main-color);
-    color: var(--second-bg-color);
-    border-radius: 4rem;
-    font-size: 1.6rem;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 0 1rem rgba(0, 255, 213, 0.4);
-    transition: all 0.3s ease;
-    font-family: 'Poppins', sans-serif;
-}
-
-.contact-btn:hover {
-    box-shadow: none;
-    transform: scale(1.05);
-}
-
-/* ── FOOTER ── */
