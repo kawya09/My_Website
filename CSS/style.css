@@ -911,14 +911,16 @@ section {
     margin-bottom: 2rem;
 }
 
-.contact-info > p {
-    font-size: 1.6rem;
+
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
     color: var(--text-muted);
-    margin-bottom: 2.5rem;
-    line-height: 1.8;
 }
-
-
 
 .contact-details i {
     font-size: 2.5rem;
