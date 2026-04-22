@@ -988,13 +988,3 @@ section {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.footer span {
-    color: var(--main-color);
-    font-weight: 600;
-}
-
-/* ── RESPONSIVE ── */
-@media (max-width: 1200px) {
-    html { font-size: 55%; }
-}
-
