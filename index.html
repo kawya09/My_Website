@@ -19,27 +19,24 @@
         <a href="#projects">Projects</a>
         <a href="#assignments">Assignments</a>
         <a href="#gallery">Gallery</a>
-        <a href="#skill">Skill</a>
+        <a href="#skills">Skill</a>
         <a href="#contact">Contact</a>
-
     </nav>
 </header>
 
+<!-- HOME -->
 <section class="home" id="home">
     <div class="home-content">
         <p class="tagline">Creative Developer</p>
         <h1>I'm <span>Hiruni Kawya</span></h1>
         <p class="description">Software Engineering student passionate about crafting clean, modern, and user-friendly digital experiences.</p>
-
         <div class="social-icons">
             <a href="#"><i class='bx bxl-github'></i></a>
             <a href="#"><i class='bx bxl-linkedin'></i></a>
             <a href="#"><i class='bx bxl-instagram'></i></a>
             <a href="#"><i class='bx bxl-twitter'></i></a>
         </div>
-
         <br>
-
         <div class="btn-group">
             <a href="#projects" class="btn">View Project</a>
             <a href="#contact" class="btn">Contact Me</a>
@@ -50,28 +47,34 @@
     </div>
 </section>
 
-
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="about-inner">
+        <div class="about-img-side">
+            <div class="img-frame">
+                <img src="assests/lib/image/my.jpeg" alt="About Me">
+                <div class="img-border"></div>
+                <div class="dot-grid"></div>
+            </div>
+        </div>
         <div class="about-text">
             <span class="label">Who I am</span>
             <h2 class="heading">About <span>Me</span></h2>
             <div class="divider"></div>
             <p>Hello! I'm <strong>Hiruni Kawya</strong>, a passionate Software Engineering student from Gampaha. I completed my school education at <strong>Henegama Central College</strong>, where my love for technology first took root.</p>
             <p>Currently pursuing studies at <strong>UISE</strong>, I focus on building modern, user-friendly applications — turning ideas into clean, efficient digital experiences.</p>
-
             <div class="info-grid">
                 <div class="info-item"><div class="info-dot"></div><div><span class="info-label">Name</span><span class="info-val">Hiruni Kawya</span></div></div>
                 <div class="info-item"><div class="info-dot"></div><div><span class="info-label">Location</span><span class="info-val">Gampaha, Sri Lanka</span></div></div>
                 <div class="info-item"><div class="info-dot"></div><div><span class="info-label">University</span><span class="info-val">UISE</span></div></div>
                 <div class="info-item"><div class="info-dot"></div><div><span class="info-label">Available for</span><span class="info-val">Freelance & Internships</span></div></div>
             </div>
-
             <div class="tag-row">
                 <span class="tag">Java</span>
                 <span class="tag">HTML5</span>
                 <span class="tag">CSS3</span>
                 <span class="tag">JavaScript</span>
             </div>
-
             <div class="btn-group" style="margin-top: 2.5rem;">
                 <a href="#" class="btn">Download CV</a>
                 <a href="#contact" class="btn btn-outline">Hire Me</a>
@@ -80,9 +83,9 @@
     </div>
 </section>
 
+<!-- PROJECTS -->
 <section class="projects" id="projects">
     <h2 class="heading">My <span>Projects</span></h2>
-
     <div class="projects-container">
         <div class="project-box">
             <img src="assests/let.JPG" alt="Project 1">
@@ -93,17 +96,15 @@
                 </a>
             </div>
         </div>
-
         <div class="project-box">
             <img src="assests/connect-four-game.jfif" alt="Project 2">
             <div class="project-layer">
-                <h4>E-Commerce Website</h4>
+                <h4>connect four game</h4>
                 <a href="https://github.com/kawya09/connect-four-game" target="_blank" rel="noopener noreferrer">
                     <i class='bx bx-link-external'></i>
                 </a>
             </div>
         </div>
-
         <div class="project-box">
             <img src="assests/stock-manegment.jpg" alt="Project 3">
             <div class="project-layer">
@@ -113,18 +114,74 @@
                 </a>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- ASSIGNMENTS -->
+<section class="assignments" id="assignments">
+    <div style="text-align:center; margin-bottom:1rem;">
+        <span class="section-label">Academic Work</span>
+    </div>
+    <h2 class="heading">My <span>Assignments</span></h2>
+    <p class="assignments-sub">A collection of academic work and coursework submissions</p>
+
+    <div class="assignments-filter">
+        <button class="filter-btn active" onclick="filterAssignments('all', this)">All</button>
+        <button class="filter-btn" onclick="filterAssignments('web', this)">Web Dev</button>
+        <button class="filter-btn" onclick="filterAssignments('java', this)">Java</button>
+        <button class="filter-btn" onclick="filterAssignments('db', this)">Database</button>
+    </div>
+
+    <div class="assignments-grid" id="assignments-grid">
+
+        <div class="assignment-card" data-category="web">
+            <span class="a-status done">Completed</span>
+            <div class="assignment-card-top">
+                <div class="assignment-number">Assignment 01</div>
+                <div class="assignment-icon">
+                    <i class='bx bxl-html5'></i>
+                </div>
+                <h3>Personal Portfolio Website</h3>
+                <p>Designed and developed a fully responsive personal portfolio using HTML5 and CSS3 with modern layout techniques including Flexbox and Grid.</p>
+            </div>
+            <div class="assignment-card-bottom">
+                <div class="assignment-tags">
+                    <span class="a-tag">HTML5</span>
+                    <span class="a-tag">CSS3</span>
+                </div>
+                <a href="#" class="assignment-link"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="assignment-card" data-category="java">
+            <span class="a-status done">Completed</span>
+            <div class="assignment-card-top">
+                <div class="assignment-number">Assignment 02</div>
+                <div class="assignment-icon">
+                    <i class='bx bxl-java'></i>
+                </div>
+                <h3>furniture shop Management System</h3>
+                <p>Built a console-based furniture shop system in Java using Object-Oriented Programming principles — inheritance, encapsulation, and polymorphism.</p>
+            </div>
+            <div class="assignment-card-bottom">
+                <div class="assignment-tags">
+                    <span class="a-tag">Java</span>
+                    <span class="a-tag">OOP</span>
+                </div>
+                <a href="#" class="assignment-link"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
     </div>
 </section>
 
-
+<!-- GALLERY -->
 <section class="gallery" id="gallery">
     <div style="text-align:center; margin-bottom: 1rem;">
         <span class="section-label">Moments</span>
     </div>
     <h2 class="heading">My <span>Gallery</span></h2>
     <p class="gallery-sub">A glimpse into my world — click any photo to explore</p>
-
     <div class="gallery-grid">
         <div class="g-item featured" onclick="openLightbox(0)">
             <img src="assests/funny.jpeg" alt="Moment One">
@@ -149,7 +206,6 @@
             </div>
         </div>
     </div>
-
     <div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
         <button class="lb-close" onclick="closeLightbox()"><i class='bx bx-x'></i></button>
         <div class="lb-content">
@@ -164,28 +220,26 @@
         </div>
     </div>
 </section>
+
+<!-- SKILLS -->
 <section class="skills" id="skills">
     <h2 class="heading">My <span>Skills</span></h2>
-
     <div class="projects-skills-container">
         <div class="skill-box">
             <i class='bx bxl-java' style="font-size: 5rem; color: var(--main-color);"></i>
             <h3>Java</h3>
             <p>Object-Oriented Programming & Backend Logic</p>
         </div>
-
         <div class="skill-box">
             <i class='bx bxl-html5' style="font-size: 5rem; color: var(--main-color);"></i>
             <h3>HTML5</h3>
             <p>Structuring responsive and accessible web content.</p>
         </div>
-
         <div class="skill-box">
             <i class='bx bxl-css3' style="font-size: 5rem; color: var(--main-color);"></i>
             <h3>CSS3</h3>
             <p>Modern styling, Flexbox, and Grid layouts.</p>
         </div>
-
         <div class="skill-box">
             <i class='bx bxl-javascript' style="font-size: 5rem; color: var(--main-color);"></i>
             <h3>JavaScript</h3>
@@ -194,20 +248,18 @@
     </div>
 </section>
 
+<!-- CONTACT -->
 <section class="contact" id="contact">
     <h2 class="section-title">Contact <span>Me</span></h2>
-
     <div class="contact-container">
         <div class="contact-info">
             <h3>Let's Work Together</h3>
             <p>I'm available for freelance projects or full-time opportunities. Let's build something amazing!</p>
-
             <div class="contact-details">
                 <p><i class="fa-solid fa-envelope"></i>h7346917@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>0753551824 </p>
-                <p><i class="fa-solid fa-location-dot"></i> Colombo, Sri Lanka</p>
+                <p><i class="fa-solid fa-phone"></i>0753551824</p>
+                <p><i class="fa-solid fa-location-dot"></i>Colombo, Sri Lanka</p>
             </div>
-
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -215,8 +267,7 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
-
-        <form class="contact-form">
+        <form class="contact-form" onsubmit="return false;">
             <input type="text" placeholder="Full Name" required>
             <input type="email" placeholder="Email Address" required>
             <input type="text" placeholder="Subject">
@@ -226,5 +277,108 @@
     </div>
 </section>
 
+<!-- FOOTER -->
+<footer class="footer">
+    <p>Copyright &copy; 2024 <span>Hiruni Kawya</span> — All Rights Reserved</p>
+</footer>
+
+<script>
+    // Mobile menu toggle
+    const menuIcon = document.querySelector('#menu-icon');
+    const navbar = document.querySelector('.navbar');
+
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
+
+    // Close menu on nav link click
+    document.querySelectorAll('.navbar a').forEach(link => {
+        link.addEventListener('click', () => {
+            navbar.classList.remove('active');
+        });
+    });
+
+    // Active nav link on scroll
+    window.addEventListener('scroll', () => {
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.navbar a');
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 150;
+            if (window.scrollY >= sectionTop) current = section.getAttribute('id');
+        });
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+        });
+    });
+
+    // Assignment filter
+    function filterAssignments(category, btn) {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.assignment-card').forEach(card => {
+            if (category === 'all' || card.dataset.category === category) {
+                card.style.display = 'flex';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    // Lightbox
+    const photos = [
+        { src: 'assests/funny.jpeg', caption: 'Moment One' },
+        { src: 'assests/happy.jpeg', caption: 'Moment Two' },
+        { src: 'assests/abc.jfif', caption: 'Moment Three' }
+    ];
+
+    let currentPhoto = 0;
+
+    function buildDots() {
+        const dotsEl = document.getElementById('lb-dots');
+        dotsEl.innerHTML = '';
+        photos.forEach((_, i) => {
+            const dot = document.createElement('div');
+            dot.className = 'lb-dot' + (i === currentPhoto ? ' active' : '');
+            dot.onclick = () => showPhoto(i);
+            dotsEl.appendChild(dot);
+        });
+    }
+
+    function showPhoto(index) {
+        currentPhoto = index;
+        document.getElementById('lb-img').src = photos[index].src;
+        document.getElementById('lb-caption').textContent = photos[index].caption;
+        document.getElementById('lb-counter').textContent = (index + 1) + ' / ' + photos.length;
+        buildDots();
+    }
+
+    function openLightbox(index) {
+        document.getElementById('lightbox').classList.add('active');
+        showPhoto(index);
+    }
+
+    function closeLightbox() {
+        document.getElementById('lightbox').classList.remove('active');
+    }
+
+    function closeLightboxOutside(e) {
+        if (e.target === document.getElementById('lightbox')) closeLightbox();
+    }
+
+    function changePhoto(dir) {
+        currentPhoto = (currentPhoto + dir + photos.length) % photos.length;
+        showPhoto(currentPhoto);
+    }
+
+    document.addEventListener('keydown', e => {
+        if (document.getElementById('lightbox').classList.contains('active')) {
+            if (e.key === 'ArrowLeft') changePhoto(-1);
+            if (e.key === 'ArrowRight') changePhoto(1);
+            if (e.key === 'Escape') closeLightbox();
+        }
+    });
+</script>
 </body>
 </html>
