@@ -998,27 +998,3 @@ section {
     html { font-size: 55%; }
 }
 
-@media (max-width: 991px) {
-    .header { padding: 2rem 3%; }
-    section { padding: 10rem 3% 4rem; }
-
-    .home { flex-direction: column; text-align: center; }
-    .home-img img { width: 50vw; margin-top: 4rem; }
-    .btn-group { justify-content: center; }
-    .social-icons { justify-content: center; }
-
-    .about-inner { flex-direction: column; gap: 5rem; text-align: center; }
-    .img-frame { width: 250px; height: 310px; margin: 0 auto; }
-    .divider { margin: 0 auto 2.5rem; }
-    .info-grid { justify-items: start; text-align: left; }
-    .tag-row { justify-content: center; }
-
-    .projects-container { grid-template-columns: repeat(2, 1fr); }
-    .assignments-grid { grid-template-columns: repeat(2, 1fr); }
-
-    .gallery-grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 220px 180px;
-    }
-}
-
