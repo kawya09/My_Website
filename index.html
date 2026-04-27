@@ -33,10 +33,10 @@
         <h1>I'm <span>Hiruni Kawya</span></h1>
         <p class="description">Software Engineering student passionate about crafting clean, modern, and user-friendly digital experiences.</p>
         <div class="social-icons">
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href=" https://github.com/kawya09"><i class='bx bxl-github'></i></a>
+            <a href="https://wa.me/94753551824"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"><i class='bx bxl-linkedin'></i></a>
         </div>
         <br>
         <div class="btn-group">
@@ -78,7 +78,15 @@
 </section>
 
 <section class="projects" id="projects">
-
+    <h2 class="heading">My <span>Projects</span></h2>
+    <div class="projects-container">
+        <div class="project-box">
+            <img src="assests/let.JPG" alt="Project 1">
+            <div class="project-layer">
+                <h4>Furniture Shop Management System</h4>
+                <a href="https://github.com/kawya09/furniture_shop" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
         <div class="project-box">
             <img src="assests/connect-four-game.jfif" alt="Project 2">
             <div class="project-layer">
@@ -105,7 +113,7 @@
             <div class="assignment-card-top">
                 <div class="assignment-number">Assignment 01</div>
                 <div class="assignment-icon"><i class='bx bxl-html5'></i></div>
-                <h3>Personal Portfolio Website</h3>
+                <h3>Exersice 01</h3>
                 <p>Responsive personal portfolio with HTML5 and CSS3.</p>
 
                 <div class="cases-wrapper">
@@ -134,8 +142,8 @@
             <div class="assignment-card-top">
                 <div class="assignment-number">Assignment 02</div>
                 <div class="assignment-icon"><i class='bx bxl-java'></i></div>
-                <h3>Furniture Shop Management</h3>
-                <p>Console-based system using OOP principles in Java.</p>
+                <h3>Exersice 02</h3>
+                <p>Practice CSS positioning and Grid layout covering all 06 cases in one repostory.</p>
 
                 <div class="cases-wrapper">
                     <span class="cases-label">Exercise 02: View Cases</span>
@@ -235,13 +243,14 @@
             </div>
         </div>
 
-        <form class="contact-form">
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
             <div class="input-box">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
+                <input type="text" name="full_name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
-            <input type="text" placeholder="Subject">
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
             <button type="submit" class="submit-btn">Send Message</button>
         </form>
     </div>
