@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <style>
 
+    </style>
 </head>
 <body>
+
 <header class="header">
     <a href="#home" class="logo">Hiruni <span>Kawya</span></a>
     <i class='bx bx-menu' id="menu-icon"></i>
@@ -24,7 +27,6 @@
     </nav>
 </header>
 
-<!-- HOME -->
 <section class="home" id="home">
     <div class="home-content">
         <p class="tagline">Creative Developer</p>
@@ -47,7 +49,6 @@
     </div>
 </section>
 
-<!-- ABOUT -->
 <section class="about" id="about">
     <div class="about-inner">
         <div class="about-img-side">
@@ -61,19 +62,12 @@
             <span class="label">Who I am</span>
             <h2 class="heading">About <span>Me</span></h2>
             <div class="divider"></div>
-            <p>Hello! I'm <strong>Hiruni Kawya</strong>, a passionate Software Engineering student from Gampaha. I completed my school education at <strong>Henegama Central College</strong>, where my love for technology first took root.</p>
-            <p>Currently pursuing studies at <strong>UISE</strong>, I focus on building modern, user-friendly applications — turning ideas into clean, efficient digital experiences.</p>
+            <p>Hello! I'm <strong>Hiruni Kawya</strong>, a passionate Software Engineering student from Gampaha. I completed my school education at <strong>Henegama Central College</strong>.</p>
+            <p>Currently pursuing studies at <strong>IJSE</strong>, I focus on building modern, user-friendly applications.</p>
             <div class="info-grid">
                 <div class="info-item"><div class="info-dot"></div><div><span class="info-label">Name</span><span class="info-val">Hiruni Kawya</span></div></div>
                 <div class="info-item"><div class="info-dot"></div><div><span class="info-label">Location</span><span class="info-val">Gampaha, Sri Lanka</span></div></div>
-                <div class="info-item"><div class="info-dot"></div><div><span class="info-label">University</span><span class="info-val">UISE</span></div></div>
-                <div class="info-item"><div class="info-dot"></div><div><span class="info-label">Available for</span><span class="info-val">Freelance & Internships</span></div></div>
-            </div>
-            <div class="tag-row">
-                <span class="tag">Java</span>
-                <span class="tag">HTML5</span>
-                <span class="tag">CSS3</span>
-                <span class="tag">JavaScript</span>
+                <div class="info-item"><div class="info-dot"></div><div><span class="info-label">University</span><span class="info-val">IJSE</span></div></div>
             </div>
             <div class="btn-group" style="margin-top: 2.5rem;">
                 <a href="#" class="btn">Download CV</a>
@@ -83,7 +77,6 @@
     </div>
 </section>
 
-<!-- PROJECTS -->
 <section class="projects" id="projects">
     <h2 class="heading">My <span>Projects</span></h2>
     <div class="projects-container">
@@ -91,58 +84,49 @@
             <img src="assests/let.JPG" alt="Project 1">
             <div class="project-layer">
                 <h4>Furniture Shop Management System</h4>
-                <a href="https://github.com/kawya09/furniture_shop" target="_blank" rel="noopener noreferrer">
-                    <i class='bx bx-link-external'></i>
-                </a>
+                <a href="https://github.com/kawya09/furniture_shop" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
         <div class="project-box">
             <img src="assests/connect-four-game.jfif" alt="Project 2">
             <div class="project-layer">
-                <h4>connect four game</h4>
-                <a href="https://github.com/kawya09/connect-four-game" target="_blank" rel="noopener noreferrer">
-                    <i class='bx bx-link-external'></i>
-                </a>
+                <h4>Connect Four Game</h4>
+                <a href="https://github.com/kawya09/connect-four-game" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
         <div class="project-box">
             <img src="assests/stock-manegment.jpg" alt="Project 3">
             <div class="project-layer">
                 <h4>Weather API App</h4>
-                <a href="https://github.com/kawya09/stock-manegment-system" target="_blank" rel="noopener noreferrer">
-                    <i class='bx bx-link-external'></i>
-                </a>
+                <a href="https://github.com/kawya09/stock-manegment-system" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ASSIGNMENTS -->
 <section class="assignments" id="assignments">
-    <div style="text-align:center; margin-bottom:1rem;">
-        <span class="section-label">Academic Work</span>
-    </div>
     <h2 class="heading">My <span>Assignments</span></h2>
-    <p class="assignments-sub">A collection of academic work and coursework submissions</p>
 
-    <div class="assignments-filter">
-        <button class="filter-btn active" onclick="filterAssignments('all', this)">All</button>
-        <button class="filter-btn" onclick="filterAssignments('web', this)">Web Dev</button>
-        <button class="filter-btn" onclick="filterAssignments('java', this)">Java</button>
-        <button class="filter-btn" onclick="filterAssignments('db', this)">Database</button>
-    </div>
-
-    <div class="assignments-grid" id="assignments-grid">
-
+    <div class="assignments-grid">
         <div class="assignment-card" data-category="web">
             <span class="a-status done">Completed</span>
             <div class="assignment-card-top">
                 <div class="assignment-number">Assignment 01</div>
-                <div class="assignment-icon">
-                    <i class='bx bxl-html5'></i>
-                </div>
+                <div class="assignment-icon"><i class='bx bxl-html5'></i></div>
                 <h3>Personal Portfolio Website</h3>
-                <p>Designed and developed a fully responsive personal portfolio using HTML5 and CSS3 with modern layout techniques including Flexbox and Grid.</p>
+                <p>Responsive personal portfolio with HTML5 and CSS3.</p>
+
+                <div class="cases-wrapper">
+                    <span class="cases-label">Exercise 01: View Cases</span>
+                    <div class="cases-grid">
+                        <a href="https://github.com/kawya09/Exersice01/tree/master/case_01" target="_blank" class="case-btn">Case 01</a>
+                        <a href="https://github.com/kawya09/Exersice01/tree/master/case_02" target="_blank" class="case-btn">Case 02</a>
+                        <a href="https://github.com/kawya09/Exersice01/tree/master/case_03" target="_blank" class="case-btn">Case 03</a>
+                        <a href="https://github.com/kawya09/Exersice01/tree/master/case_04" target="_blank" class="case-btn">Case 04</a>
+                        <a href="https://github.com/kawya09/Exersice01/tree/master/case_05" target="_blank" class="case-btn">Case 05</a>
+                        <a href="https://github.com/kawya09/Exersice01/tree/master/case_06" target="_blank" class="case-btn">Case 06</a>
+                    </div>
+                </div>
             </div>
             <div class="assignment-card-bottom">
                 <div class="assignment-tags">
@@ -157,11 +141,21 @@
             <span class="a-status done">Completed</span>
             <div class="assignment-card-top">
                 <div class="assignment-number">Assignment 02</div>
-                <div class="assignment-icon">
-                    <i class='bx bxl-java'></i>
+                <div class="assignment-icon"><i class='bx bxl-java'></i></div>
+                <h3>Furniture Shop Management</h3>
+                <p>Console-based system using OOP principles in Java.</p>
+
+                <div class="cases-wrapper">
+                    <span class="cases-label">Exercise 02: View Cases</span>
+                    <div class="cases-grid">
+                        <a href="https://github.com/kawya09/Exersice_02/tree/master/case_01" target="_blank" class="case-btn">Case 01</a>
+                        <a href="https://github.com/kawya09/Exersice_02/tree/master/case_02"target="_blank" class="case-btn">Case 02</a>
+                        <a href="https://github.com/kawya09/Exersice_02/tree/master/case_03" target="_blank" class="case-btn">Case 03</a>
+                        <a href="https://github.com/kawya09/Exersice_02/tree/master/case_04" target="_blank" class="case-btn">Case 04</a>
+                        <a href="https://github.com/kawya09/Exersice_02/tree/master/case_05" target="_blank" class="case-btn">Case 05</a>
+                        <a href="https://github.com/kawya09/Exersice_02/tree/master/case_06" target="_blank" class="case-btn">Case 06</a>
+                    </div>
                 </div>
-                <h3>furniture shop Management System</h3>
-                <p>Built a console-based furniture shop system in Java using Object-Oriented Programming principles — inheritance, encapsulation, and polymorphism.</p>
             </div>
             <div class="assignment-card-bottom">
                 <div class="assignment-tags">
@@ -171,39 +165,20 @@
                 <a href="#" class="assignment-link"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
-
     </div>
 </section>
 
-<!-- GALLERY -->
 <section class="gallery" id="gallery">
-    <div style="text-align:center; margin-bottom: 1rem;">
-        <span class="section-label">Moments</span>
-    </div>
     <h2 class="heading">My <span>Gallery</span></h2>
-    <p class="gallery-sub">A glimpse into my world — click any photo to explore</p>
     <div class="gallery-grid">
         <div class="g-item featured" onclick="openLightbox(0)">
             <img src="assests/funny.jpeg" alt="Moment One">
-            <div class="g-overlay">
-                <div class="g-zoom"><i class='bx bx-zoom-in'></i></div>
-                <span class="g-caption">View Photo</span>
-            </div>
-            <span class="g-badge">Featured</span>
         </div>
         <div class="g-item" onclick="openLightbox(1)">
             <img src="assests/happy.jpeg" alt="Moment Two">
-            <div class="g-overlay">
-                <div class="g-zoom"><i class='bx bx-zoom-in'></i></div>
-                <span class="g-caption">View Photo</span>
-            </div>
         </div>
         <div class="g-item" onclick="openLightbox(2)">
             <img src="assests/abc.jfif" alt="Moment Three">
-            <div class="g-overlay">
-                <div class="g-zoom"><i class='bx bx-zoom-in'></i></div>
-                <span class="g-caption">View Photo</span>
-            </div>
         </div>
     </div>
     <div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
@@ -216,169 +191,108 @@
                 <div class="lb-dots" id="lb-dots"></div>
                 <button class="lb-btn" onclick="changePhoto(1)"><i class='bx bx-chevron-right'></i></button>
             </div>
-            <span class="lb-counter" id="lb-counter"></span>
         </div>
     </div>
 </section>
 
-<!-- SKILLS -->
 <section class="skills" id="skills">
-    <h2 class="heading">My <span>Skills</span></h2>
-    <div class="projects-skills-container">
-        <div class="skill-box">
-            <i class='bx bxl-java' style="font-size: 5rem; color: var(--main-color);"></i>
+    <h2 class="heading">Technical <span>Skills</span></h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <i class='bx bxl-java'></i>
             <h3>Java</h3>
-            <p>Object-Oriented Programming & Backend Logic</p>
+            <p>Backend Logic & OOP</p>
         </div>
-        <div class="skill-box">
-            <i class='bx bxl-html5' style="font-size: 5rem; color: var(--main-color);"></i>
+        <div class="skill-card">
+            <i class='bx bxl-html5'></i>
             <h3>HTML5</h3>
-            <p>Structuring responsive and accessible web content.</p>
+            <p>Web Structure</p>
         </div>
-        <div class="skill-box">
-            <i class='bx bxl-css3' style="font-size: 5rem; color: var(--main-color);"></i>
+        <div class="skill-card">
+            <i class='bx bxl-css3'></i>
             <h3>CSS3</h3>
-            <p>Modern styling, Flexbox, and Grid layouts.</p>
+            <p>Responsive Design</p>
         </div>
-        <div class="skill-box">
-            <i class='bx bxl-javascript' style="font-size: 5rem; color: var(--main-color);"></i>
-            <h3>JavaScript</h3>
-            <p>Interactive elements and dynamic user interfaces.</p>
+        <div class="skill-card">
+            <i class='bx bxl-figma'></i>
+            <h3>UI/UX</h3>
+            <p>Modern Layouts</p>
         </div>
     </div>
 </section>
 
-<!-- CONTACT -->
 <section class="contact" id="contact">
-    <h2 class="section-title">Contact <span>Me</span></h2>
-    <div class="contact-container">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <div class="contact-wrapper">
         <div class="contact-info">
             <h3>Let's Work Together</h3>
-            <p>I'm available for freelance projects or full-time opportunities. Let's build something amazing!</p>
-            <div class="contact-details">
-                <p><i class="fa-solid fa-envelope"></i>h7346917@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>0753551824</p>
-                <p><i class="fa-solid fa-location-dot"></i>Colombo, Sri Lanka</p>
+            <p style="color: #999; margin-bottom: 2rem;">I'm currently available for freelance work and internships. Feel free to reach out!</p>
+
+            <div class="contact-item">
+                <i class='bx bx-envelope'></i>
+                <span>h7346917@gmail.com</span>
             </div>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <div class="contact-item">
+                <i class='bx bx-phone'></i>
+                <span>0753551824</span>
+            </div>
+            <div class="contact-item">
+                <i class='bx bx-map'></i>
+                <span>Gampaha, Sri Lanka</span>
             </div>
         </div>
-        <form class="contact-form" onsubmit="return false;">
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
+
+        <form class="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
             <input type="text" placeholder="Subject">
-            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
-            <button type="submit" class="contact-btn">Send Message</button>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
         </form>
     </div>
 </section>
 
-<!-- FOOTER -->
+<!--Animation AOS link-->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 <footer class="footer">
     <p>Copyright &copy; 2024 <span>Hiruni Kawya</span> — All Rights Reserved</p>
 </footer>
 
 <script>
-    // Mobile menu toggle
+    // Navbar toggle
     const menuIcon = document.querySelector('#menu-icon');
     const navbar = document.querySelector('.navbar');
-
-    menuIcon.addEventListener('click', () => {
+    menuIcon.onclick = () => {
         navbar.classList.toggle('active');
-    });
+    }
 
-    // Close menu on nav link click
-    document.querySelectorAll('.navbar a').forEach(link => {
-        link.addEventListener('click', () => {
-            navbar.classList.remove('active');
-        });
-    });
+    // Smooth Scroll Active Link
+    let sections = document.querySelectorAll('section');
+    let navLinks = document.querySelectorAll('header nav a');
 
-    // Active nav link on scroll
-    window.addEventListener('scroll', () => {
-        const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('.navbar a');
-        let current = '';
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop - 150;
-            if (window.scrollY >= sectionTop) current = section.getAttribute('id');
-        });
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === '#' + current) link.classList.add('active');
-        });
-    });
+    window.onscroll = () => {
+        sections.forEach(sec => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop - 150;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute('id');
 
-    // Assignment filter
-    function filterAssignments(category, btn) {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        document.querySelectorAll('.assignment-card').forEach(card => {
-            if (category === 'all' || card.dataset.category === category) {
-                card.style.display = 'flex';
-            } else {
-                card.style.display = 'none';
+            if(top >= offset && top < offset + height) {
+                navLinks.forEach(links => {
+                    links.classList.remove('active');
+                    document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                });
             }
         });
-    }
-
-    // Lightbox
-    const photos = [
-        { src: 'assests/funny.jpeg', caption: 'Moment One' },
-        { src: 'assests/happy.jpeg', caption: 'Moment Two' },
-        { src: 'assests/abc.jfif', caption: 'Moment Three' }
-    ];
-
-    let currentPhoto = 0;
-
-    function buildDots() {
-        const dotsEl = document.getElementById('lb-dots');
-        dotsEl.innerHTML = '';
-        photos.forEach((_, i) => {
-            const dot = document.createElement('div');
-            dot.className = 'lb-dot' + (i === currentPhoto ? ' active' : '');
-            dot.onclick = () => showPhoto(i);
-            dotsEl.appendChild(dot);
-        });
-    }
-
-    function showPhoto(index) {
-        currentPhoto = index;
-        document.getElementById('lb-img').src = photos[index].src;
-        document.getElementById('lb-caption').textContent = photos[index].caption;
-        document.getElementById('lb-counter').textContent = (index + 1) + ' / ' + photos.length;
-        buildDots();
-    }
-
-    function openLightbox(index) {
-        document.getElementById('lightbox').classList.add('active');
-        showPhoto(index);
-    }
-
-    function closeLightbox() {
-        document.getElementById('lightbox').classList.remove('active');
-    }
-
-    function closeLightboxOutside(e) {
-        if (e.target === document.getElementById('lightbox')) closeLightbox();
-    }
-
-    function changePhoto(dir) {
-        currentPhoto = (currentPhoto + dir + photos.length) % photos.length;
-        showPhoto(currentPhoto);
-    }
-
-    document.addEventListener('keydown', e => {
-        if (document.getElementById('lightbox').classList.contains('active')) {
-            if (e.key === 'ArrowLeft') changePhoto(-1);
-            if (e.key === 'ArrowRight') changePhoto(1);
-            if (e.key === 'Escape') closeLightbox();
-        }
-    });
+    };
 </script>
 </body>
 </html>
