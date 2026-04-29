@@ -1062,7 +1062,11 @@ section {
     .projects-container { grid-template-columns: repeat(2, 1fr); }
     .assignments-grid { grid-template-columns: repeat(2, 1fr); }
 
-
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 180px;
+    }
+}
 
 @media (max-width: 768px) {
     #menu-icon { display: block; }
@@ -1086,13 +1090,6 @@ section {
         font-size: 1.8rem;
     }
 
-    .projects-container { grid-template-columns: 1fr; }
-    .assignments-grid { grid-template-columns: 1fr; }
-
-    .gallery-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
 
     .g-item.featured {
         grid-row: auto;
