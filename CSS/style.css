@@ -974,6 +974,20 @@ section {
     color: #ccc;
 }
 
+.contact-form {
+    flex: 1 1 40rem;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -993,17 +1007,7 @@ section {
     outline: none;
 }
 
-.submit-btn {
-    background: #00ffed;
-    color: #000;
-    font-weight: 700;
-    letter-spacing: 1px;
-    cursor: pointer;
-    border: none;
-    padding: 1.2rem 3rem;
-    border-radius: 10px;
-    transition: 0.3s;
-}
+
 
 .submit-btn:hover {
     box-shadow: 0 0 15px #00ffed;
