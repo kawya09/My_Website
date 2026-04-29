@@ -961,24 +961,17 @@ section {
     margin-bottom: 2rem;
 }
 
+.contact-item i {
+    font-size: 2rem;
+    color: #00ffed;
+    background: rgba(0, 255, 237, 0.1);
+    padding: 1rem;
+    border-radius: 12px;
+}
 
 .contact-item span {
     font-size: 1.1rem;
     color: #ccc;
-}
-
-.contact-form {
-    flex: 1 1 40rem;
-    background: rgba(255, 255, 255, 0.03);
-    padding: 3rem;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.input-box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
 }
 
 .contact-form input,
