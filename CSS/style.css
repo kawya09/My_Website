@@ -917,7 +917,12 @@ section {
     box-shadow: 0 0 25px rgba(0, 255, 237, 0.2);
 }
 
-.
+.skill-card i {
+    font-size: 4rem;
+    color: #00ffed;
+    margin-bottom: 1.5rem;
+}
+
 .skill-card h3 {
     font-size: 1.5rem;
     color: #fff;
@@ -930,14 +935,6 @@ section {
     background: #111;
 }
 
-.contact-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-}
 
 .contact-info {
     flex: 1 1 30rem;
