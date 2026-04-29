@@ -1090,6 +1090,13 @@ section {
         font-size: 1.8rem;
     }
 
+    .projects-container { grid-template-columns: 1fr; }
+    .assignments-grid { grid-template-columns: 1fr; }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 
     .g-item.featured {
         grid-row: auto;
@@ -1103,8 +1110,4 @@ section {
     .lb-close { top: 1.5rem; right: 1.5rem; }
 }
 
-@media (max-width: 480px) {
-    .home-content h1 { font-size: 4rem; }
-    .img-frame { width: 200px; height: 250px; }
-    .about-text h2 { font-size: 3.5rem; }
-}
+
