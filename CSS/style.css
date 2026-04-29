@@ -935,6 +935,14 @@ section {
     background: #111;
 }
 
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
 
 .contact-info {
     flex: 1 1 30rem;
@@ -953,13 +961,6 @@ section {
     margin-bottom: 2rem;
 }
 
-.contact-item i {
-    font-size: 2rem;
-    color: #00ffed;
-    background: rgba(0, 255, 237, 0.1);
-    padding: 1rem;
-    border-radius: 12px;
-}
 
 .contact-item span {
     font-size: 1.1rem;
