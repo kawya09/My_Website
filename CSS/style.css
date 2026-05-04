@@ -634,6 +634,15 @@ section {
 .assignment-link {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 255, 213, 0.25);
+    color: var(--main-color);
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
 
 .assignment-link:hover {
     background: var(--main-color);
@@ -642,14 +651,6 @@ section {
 
 /* ── STATUS BADGE ── */
 .a-status {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    font-size: 1.1rem;
-    padding: 4px 14px;
-    border-radius: 2rem;
-    font-weight: 600;
-}
 
 .a-status.done {
     background: rgba(0, 255, 213, 0.1);
