@@ -603,7 +603,13 @@ section {
     transition: all 0.3s ease;
 }
 
-
+.case-btn:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    border-color: var(--main-color);
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 255, 213, 0.2);
+}
 
 /* ── CARD BOTTOM ── */
 .assignment-card-bottom {
@@ -628,15 +634,6 @@ section {
 .assignment-link {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    width: 3.8rem;
-    height: 3.8rem;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 255, 213, 0.25);
-    color: var(--main-color);
-    font-size: 1.6rem;
-    transition: all 0.3s ease;
-}
 
 .assignment-link:hover {
     background: var(--main-color);
