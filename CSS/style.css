@@ -559,13 +559,14 @@ section {
     border-color: #00ffed;
     transform: translateY(-2px);
 }
-.assignment-card {
-    min-height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
+.cases-wrapper {
+    margin-top: 2rem;
+    padding: 1.8rem;
+    background: rgba(0, 255, 213, 0.03);
+    border-radius: 1.4rem;
+    border: 1px solid rgba(0, 255, 213, 0.1);
+}
 
 .cases-label {
     display: block;
