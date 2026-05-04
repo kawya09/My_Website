@@ -290,12 +290,7 @@ section {
     font-weight: 600;
 }
 
-.info-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.4rem;
-    margin: 2.5rem 0;
-}
+
 
 .info-item {
     display: flex;
@@ -505,6 +500,14 @@ section {
 .assignment-icon i {
     font-size: 2.4rem;
     color: var(--main-color);
+}
+
+.assignment-card h3 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    line-height: 1.4;
 }
 
 .assignment-card p {
