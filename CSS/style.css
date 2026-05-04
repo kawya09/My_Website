@@ -631,6 +631,8 @@ section {
     margin-right: 0.5rem;
 }
 
+
+
 .assignment-link:hover {
     background: var(--main-color);
     color: var(--second-bg-color);
