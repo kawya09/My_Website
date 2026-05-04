@@ -326,7 +326,12 @@ section {
     font-weight: 500;
 }
 
-
+.tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
 
 .tag {
     background: rgba(0, 255, 213, 0.07);
@@ -338,9 +343,6 @@ section {
     transition: background 0.3s;
 }
 
-.tag:hover {
-    background: rgba(0, 255, 213, 0.15);
-}
 
 /* ── PROJECTS ── */
 .projects {
