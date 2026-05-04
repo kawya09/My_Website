@@ -245,6 +245,10 @@ section {
 
 
 
+.about-text {
+    flex: 1;
+}
+
 .section-label {
     display: block;
     font-size: 1.3rem;
@@ -266,13 +270,6 @@ section {
     color: var(--main-color);
 }
 
-.divider {
-    width: 60px;
-    height: 3px;
-    background: var(--main-color);
-    border-radius: 2px;
-    margin-bottom: 2.5rem;
-}
 
 .about-text p {
     font-size: 1.55rem;
