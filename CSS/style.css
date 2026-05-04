@@ -343,14 +343,12 @@ section {
     transition: background 0.3s;
 }
 
+.tag:hover {
+    background: rgba(0, 255, 213, 0.15);
+}
 
 /* ── PROJECTS ── */
-.projects {
-    background: var(--bg-color);
-}
-.projects .heading {
-    margin-bottom: 5rem;
-}
+
 
 .projects-container {
     display: grid;
