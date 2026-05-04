@@ -631,7 +631,18 @@ section {
     margin-right: 0.5rem;
 }
 
-
+.assignment-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 255, 213, 0.25);
+    color: var(--main-color);
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
 
 .assignment-link:hover {
     background: var(--main-color);
@@ -742,15 +753,7 @@ section {
     transition: all 0.35s ease;
 }
 
-.g-zoom i {
-    font-size: 2.6rem;
-    color: var(--main-color);
-}
 
-.g-item:hover .g-zoom {
-    opacity: 1;
-    transform: scale(1);
-}
 
 .g-caption {
     font-size: 1.4rem;
