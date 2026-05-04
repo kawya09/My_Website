@@ -266,9 +266,7 @@ section {
     margin-bottom: 1.5rem;
 }
 
-.about-text h2 span {
-    color: var(--main-color);
-}
+
 
 .divider {
     width: 60px;
@@ -306,7 +304,7 @@ section {
 .info-dot {
     width: 8px;
     height: 8px;
-
+    background: var(--main-color);
     border-radius: 50%;
     flex-shrink: 0;
     margin-top: 5px;
