@@ -266,7 +266,9 @@ section {
     margin-bottom: 1.5rem;
 }
 
-
+.about-text h2 span {
+    color: var(--main-color);
+}
 
 .divider {
     width: 60px;
@@ -353,11 +355,7 @@ section {
     margin-bottom: 5rem;
 }
 
-.projects-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-}
+
 
 .project-box {
     position: relative;
