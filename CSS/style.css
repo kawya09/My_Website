@@ -530,7 +530,13 @@ section {
     border-radius: 12px;
     text-align: left;
 }
-
+.cases-label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 10px;
+}
 .cases-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -603,15 +609,6 @@ section {
     border-color: var(--main-color);
     transform: translateY(-3px);
     box-shadow: 0 0.5rem 1rem rgba(0, 255, 213, 0.2);
-}
-
-/* ── CARD BOTTOM ── */
-.assignment-card-bottom {
-    padding: 1.8rem 2.8rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .a-tag {
