@@ -523,7 +523,13 @@ section {
 }
 
 /* ── CASES WRAPPER (Update) ── */
-
+.cases-wrapper {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f4f7ff;
+    border-radius: 12px;
+    text-align: left;
+}
 .cases-label {
     display: block;
     font-size: 0.85rem;
@@ -559,13 +565,7 @@ section {
     flex-direction: column;
     justify-content: space-between;
 }
-.cases-wrapper {
-    margin-top: 2rem;
-    padding: 1.8rem;
-    background: rgba(0, 255, 213, 0.03);
-    border-radius: 1.4rem;
-    border: 1px solid rgba(0, 255, 213, 0.1);
-}
+
 
 .cases-label {
     display: block;
