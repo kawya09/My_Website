@@ -297,11 +297,16 @@ section {
     margin: 2.5rem 0;
 }
 
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
 .info-dot {
     width: 8px;
     height: 8px;
-    background: var(--main-color);
+
     border-radius: 50%;
     flex-shrink: 0;
     margin-top: 5px;
