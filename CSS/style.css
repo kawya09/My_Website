@@ -405,6 +405,18 @@ section {
     color: var(--second-bg-color);
     margin-bottom: 1rem;
 }
+
+.project-layer a {
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
 .project-layer a:hover {
     transform: scale(1.1);
 }
@@ -426,11 +438,6 @@ section {
     margin-bottom: 5rem;
 }
 
-.assignments-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2.5rem;
-}
 
 /* ── ASSIGNMENT CARD ── */
 .assignment-card {
