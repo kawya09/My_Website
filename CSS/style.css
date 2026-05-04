@@ -290,6 +290,18 @@ section {
     font-weight: 600;
 }
 
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4rem;
+    margin: 2.5rem 0;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
 .info-dot {
     width: 8px;
@@ -319,17 +331,7 @@ section {
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 0.5rem;
-}
 
-.tag {
-    background: rgba(0, 255, 213, 0.07);
-    border: 1px solid rgba(0, 255, 213, 0.25);
-    color: var(--main-color);
-    font-size: 1.3rem;
-    padding: 6px 18px;
-    border-radius: 3rem;
-    transition: background 0.3s;
-}
 
 .tag:hover {
     background: rgba(0, 255, 213, 0.15);
