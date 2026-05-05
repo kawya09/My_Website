@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hiruni Kawya | Portfolio</title>
+    <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
-    <style>
-
-    </style>
 </head>
 <body>
 
@@ -28,12 +29,12 @@
 </header>
 
 <section class="home" id="home">
-    <div class="home-content">
+    <div class="home-content" data-aos="fade-right" data-aos-duration="1000">
         <p class="tagline">Creative Developer</p>
         <h1>I'm <span>Hiruni Kawya</span></h1>
         <p class="description">Software Engineering student passionate about crafting clean, modern, and user-friendly digital experiences.</p>
         <div class="social-icons">
-            <a href=" https://github.com/kawya09"><i class='bx bxl-github'></i></a>
+            <a href="https://github.com/kawya09"><i class='bx bxl-github'></i></a>
             <a href="https://wa.me/94753551824"><i class='bx bxl-whatsapp'></i></a>
             <a href="https://"><i class='bx bxl-facebook'></i></a>
             <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"><i class='bx bxl-linkedin'></i></a>
@@ -44,21 +45,21 @@
             <a href="#contact" class="btn">Contact Me</a>
         </div>
     </div>
-    <div class="home-img">
+    <div class="home-img" data-aos="zoom-in" data-aos-duration="1200">
         <img src="assests/lib/image/my.jpeg" alt="Hiruni Kawya">
     </div>
 </section>
 
 <section class="about" id="about">
     <div class="about-inner">
-        <div class="about-img-side">
+        <div class="about-img-side" data-aos="fade-up" data-aos-duration="1000">
             <div class="img-frame">
                 <img src="assests/lib/image/my.jpeg" alt="About Me">
                 <div class="img-border"></div>
                 <div class="dot-grid"></div>
             </div>
         </div>
-        <div class="about-text">
+        <div class="about-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <span class="label">Who I am</span>
             <h2 class="heading">About <span>Me</span></h2>
             <div class="divider"></div>
@@ -78,23 +79,23 @@
 </section>
 
 <section class="projects" id="projects">
-    <h2 class="heading">My <span>Projects</span></h2>
+    <h2 class="heading" data-aos="fade-down">My <span>Projects</span></h2>
     <div class="projects-container">
-        <div class="project-box">
+        <div class="project-box" data-aos="flip-left" data-aos-duration="800">
             <img src="assests/let.JPG" alt="Project 1">
             <div class="project-layer">
                 <h4>Furniture Shop Management System</h4>
                 <a href="https://github.com/kawya09/furniture_shop" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
-        <div class="project-box">
+        <div class="project-box" data-aos="flip-left" data-aos-duration="800" data-aos-delay="200">
             <img src="assests/connect-four-game.jfif" alt="Project 2">
             <div class="project-layer">
                 <h4>Connect Four Game</h4>
                 <a href="https://github.com/kawya09/connect-four-game" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
         </div>
-        <div class="project-box">
+        <div class="project-box" data-aos="flip-left" data-aos-duration="800" data-aos-delay="400">
             <img src="assests/stock-manegment.jpg" alt="Project 3">
             <div class="project-layer">
                 <h4>stock-manegment-system</h4>
@@ -105,10 +106,10 @@
 </section>
 
 <section class="assignments" id="assignments">
-    <h2 class="heading">My <span>Assignments</span></h2>
+    <h2 class="heading" data-aos="fade-down">My <span>Assignments</span></h2>
 
     <div class="assignments-grid">
-        <div class="assignment-card" data-category="web">
+        <div class="assignment-card" data-category="web" data-aos="fade-up">
             <span class="a-status done">Completed</span>
             <div class="assignment-card-top">
                 <div class="assignment-number">Assignment 01</div>
@@ -137,7 +138,7 @@
             </div>
         </div>
 
-        <div class="assignment-card" data-category="java">
+        <div class="assignment-card" data-category="java" data-aos="fade-up" data-aos-delay="200">
             <span class="a-status done">Completed</span>
             <div class="assignment-card-top">
                 <div class="assignment-number">Assignment 02</div>
@@ -169,51 +170,39 @@
 </section>
 
 <section class="gallery" id="gallery">
-    <h2 class="heading">My <span>Gallery</span></h2>
+    <h2 class="heading" data-aos="zoom-in">My <span>Gallery</span></h2>
     <div class="gallery-grid">
-        <div class="g-item featured" onclick="openLightbox(0)">
+        <div class="g-item featured" onclick="openLightbox(0)" data-aos="fade-right">
             <img src="assests/funny.jpeg" alt="Moment One">
         </div>
-        <div class="g-item" onclick="openLightbox(1)">
+        <div class="g-item" onclick="openLightbox(1)" data-aos="fade-up">
             <img src="assests/happy.jpeg" alt="Moment Two">
         </div>
-        <div class="g-item" onclick="openLightbox(2)">
+        <div class="g-item" onclick="openLightbox(2)" data-aos="fade-left">
             <img src="assests/abc.jfif" alt="Moment Three">
-        </div>
-    </div>
-    <div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
-        <button class="lb-close" onclick="closeLightbox()"><i class='bx bx-x'></i></button>
-        <div class="lb-content">
-            <img id="lb-img" src="" alt="">
-            <p id="lb-caption"></p>
-            <div class="lb-nav">
-                <button class="lb-btn" onclick="changePhoto(-1)"><i class='bx bx-chevron-left'></i></button>
-                <div class="lb-dots" id="lb-dots"></div>
-                <button class="lb-btn" onclick="changePhoto(1)"><i class='bx bx-chevron-right'></i></button>
-            </div>
         </div>
     </div>
 </section>
 
 <section class="skills" id="skills">
-    <h2 class="heading">Technical <span>Skills</span></h2>
+    <h2 class="heading" data-aos="fade-down">Technical <span>Skills</span></h2>
     <div class="skills-container">
-        <div class="skill-card">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
             <i class='bx bxl-java'></i>
             <h3>Java</h3>
             <p>Backend Logic & OOP</p>
         </div>
-        <div class="skill-card">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
             <i class='bx bxl-html5'></i>
             <h3>HTML5</h3>
             <p>Web Structure</p>
         </div>
-        <div class="skill-card">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
             <i class='bx bxl-css3'></i>
             <h3>CSS3</h3>
             <p>Responsive Design</p>
         </div>
-        <div class="skill-card">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
             <i class='bx bxl-figma'></i>
             <h3>UI/UX</h3>
             <p>Modern Layouts</p>
@@ -222,10 +211,10 @@
 </section>
 
 <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me</span></h2>
+    <h2 class="heading" data-aos="fade-up">Contact <span>Me</span></h2>
 
     <div class="contact-wrapper">
-        <div class="contact-info">
+        <div class="contact-info" data-aos="fade-right">
             <h3>Let's Work Together</h3>
             <p style="color: #999; margin-bottom: 2rem;">I'm currently available for freelance work and internships. Feel free to reach out!</p>
 
@@ -243,7 +232,7 @@
             </div>
         </div>
 
-        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form" data-aos="fade-left">
             <div class="input-box">
                 <input type="text" name="full_name" placeholder="Full Name" required>
                 <input type="email" name="email" placeholder="Email Address" required>
@@ -256,44 +245,22 @@
     </div>
 </section>
 
-<!--Animation AOS link-->
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-
 <footer class="footer">
     <p>Copyright &copy; 2024 <span>Hiruni Kawya</span> — All Rights Reserved</p>
 </footer>
 
+<!-- AOS JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-    // Navbar toggle
-    const menuIcon = document.querySelector('#menu-icon');
-    const navbar = document.querySelector('.navbar');
-    menuIcon.onclick = () => {
-        navbar.classList.toggle('active');
-    }
-
-    // Smooth Scroll Active Link
-    let sections = document.querySelectorAll('section');
-    let navLinks = document.querySelectorAll('header nav a');
-
-    window.onscroll = () => {
-        sections.forEach(sec => {
-            let top = window.scrollY;
-            let offset = sec.offsetTop - 150;
-            let height = sec.offsetHeight;
-            let id = sec.getAttribute('id');
-
-            if(top >= offset && top < offset + height) {
-                navLinks.forEach(links => {
-                    links.classList.remove('active');
-                    document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-                });
-            }
-        });
-    };
+    // Initialize AOS
+    AOS.init({
+        offset: 120,
+        duration: 800,
+        easing: 'ease-in-out',
+        once: false,
+        mirror: true
+    });
 </script>
+
 </body>
 </html>
