@@ -169,42 +169,47 @@
     </div>
 </section>
 
-
-
-<section class="contact" id="contact">
-    <h2 class="heading" data-aos="fade-up">Contact <span>Me</span></h2>
-
-    <div class="contact-wrapper">
-        <div class="contact-info" data-aos="fade-right">
-            <h3>Let's Work Together</h3>
-            <p style="color: #999; margin-bottom: 2rem;">I'm currently available for freelance work and internships. Feel free to reach out!</p>
-
-            <div class="contact-item">
-                <i class='bx bx-envelope'></i>
-                <span>h7346917@gmail.com</span>
-            </div>
-            <div class="contact-item">
-                <i class='bx bx-phone'></i>
-                <span>0753551824</span>
-            </div>
-            <div class="contact-item">
-                <i class='bx bx-map'></i>
-                <span>Gampaha, Sri Lanka</span>
-            </div>
+<section class="gallery" id="gallery">
+    <h2 class="heading" data-aos="zoom-in">My <span>Gallery</span></h2>
+    <div class="gallery-grid">
+        <div class="g-item featured" onclick="openLightbox(0)" data-aos="fade-right">
+            <img src="assests/funny.jpeg" alt="Moment One">
         </div>
-
-        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form" data-aos="fade-left">
-            <div class="input-box">
-                <input type="text" name="full_name" placeholder="Full Name" required>
-                <input type="email" name="email" placeholder="Email Address" required>
-            </div>
-            <input type="text" name="subject" placeholder="Subject">
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
+        <div class="g-item" onclick="openLightbox(1)" data-aos="fade-up">
+            <img src="assests/happy.jpeg" alt="Moment Two">
+        </div>
+        <div class="g-item" onclick="openLightbox(2)" data-aos="fade-left">
+            <img src="assests/abc.jfif" alt="Moment Three">
+        </div>
     </div>
 </section>
+
+<section class="skills" id="skills">
+    <h2 class="heading" data-aos="fade-down">Technical <span>Skills</span></h2>
+    <div class="skills-container">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+            <i class='bx bxl-java'></i>
+            <h3>Java</h3>
+            <p>Backend Logic & OOP</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+            <i class='bx bxl-html5'></i>
+            <h3>HTML5</h3>
+            <p>Web Structure</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+            <i class='bx bxl-css3'></i>
+            <h3>CSS3</h3>
+            <p>Responsive Design</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+            <i class='bx bxl-figma'></i>
+            <h3>UI/UX</h3>
+            <p>Modern Layouts</p>
+        </div>
+    </div>
+</section>
+
 
 <footer class="footer">
     <p>Copyright &copy; 2024 <span>Hiruni Kawya</span> — All Rights Reserved</p>
